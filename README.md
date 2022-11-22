@@ -109,6 +109,9 @@ To access the data, you must sign up on the PhysioNet website and sign a Data Us
    ```sh
    drive.mount('/content/gdrive')
    ```
+   ```sh
+   !unzip gdrive/MyDrive/Databases/proj2.zip
+   ```
 	 ```sh
 	 heart_data = pd.read_csv('/content/hospitalized-patients-with-heart-failure-integrating-electronic-healthcare-records-and-external-outcome-data-1.3/dat.csv')
 	 
