@@ -76,7 +76,7 @@ In this project, I've applied machine learning methods to construct predictive m
 
 Here, I've used the data for the following tasks:
 <ul>
-  <li>Predicting the duration of the hopsital stay using data that is expected to be available shortly after patient admission (Patient history, physical exam, lab tests, and drug order)</li>
+  <li>Predicting the duration of hospitalization using data that is expected to be available shortly after patient admission (Patient history, physical exam, lab tests, and drug order)</li>
 </ul>
 
 References:
