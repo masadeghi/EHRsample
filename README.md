@@ -34,8 +34,6 @@
     <a href="https://github.com/masadeghi/EHRsample"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/masadeghi/EHRsample">View Demo</a>
-    ·
     <a href="https://github.com/masadeghi/EHRsample/issues">Report Bug</a>
     ·
     <a href="https://github.com/masadeghi/EHRsample/issues">Request Feature</a>
