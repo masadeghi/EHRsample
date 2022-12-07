@@ -70,11 +70,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this project, I've applied machine learning methods to construct predictive models from a dataset on heart failure patients. This dataset is provided by Zhang et al. on the PhysioNet website [1](https://physionet.org/content/heart-failure-zigong/1.3/#files), and contains 168 variables for 2,008 patients with heart failure. An additional dataset contains all the medications administered to the patients during their hospital stay. Originally, the data was used to predict emergency readmission of discharged patients.
+In this project, I've applied machine learning methods to construct predictive models from a dataset on heart failure patients. This dataset is provided by Zhang et al. on the PhysioNet website [1](https://physionet.org/content/heart-failure-zigong/1.3/#files), and contains 168 variables for 2,008 patients with heart failure. An additional dataset contains all the medications administered to the patients during their hospital stay. Originally, the data was used to predict emergency readmission of discharged patients within 6 months.
 
 Here, I've used the data for the following tasks:
 <ul>
-  <li>Predicting the duration of hospitalization using data that is expected to be available shortly after patient admission (Patient history, physical exam, lab tests, and drug order)</li>
+  <li>Predicting the duration of hospital stay using data that is expected to be available shortly after patient admission (Patient history, physical exam, lab tests, and drug order)</li>
 </ul>
 
 References:
@@ -177,7 +177,7 @@ Project Link: [https://github.com/masadeghi/EHRsample](https://github.com/masade
 [forks-shield]: https://img.shields.io/github/forks/masadeghi/EHRsample.svg?style=for-the-badge
 [forks-url]: https://github.com/masadeghi/EHRsample/network/members
 [stars-shield]: https://img.shields.io/github/stars/masadeghi/EHRsample.svg?style=for-the-badge
-[stars-url]: https://github.com/masadeghi/repo_name/stargazers
+[stars-url]: https://github.com/masadeghi/EHRsample/stargazers
 [issues-shield]: https://img.shields.io/github/issues/masadeghi/EHRsample.svg?style=for-the-badge
 [issues-url]: https://github.com/masadeghi/EHRsample/issues
 [license-shield]: https://img.shields.io/github/license/masadeghi/EHRsample.svg?style=for-the-badge
