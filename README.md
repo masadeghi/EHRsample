@@ -70,11 +70,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this project, I've applied machine learning methods to construct predictive models from a dataset on heart failure patients. This dataset is provided by Zhang et al. on the PhysioNet website [1](https://physionet.org/content/heart-failure-zigong/1.3/#files), and contains 168 variables for 2,008 patients with heart failure. An additional dataset contains all the medications administered to the patients during their hospital stay. Originally, the data was used to predict emergency readmission of discharged patients within 6 months.
+In this project, I've applied machine learning methods to a dataset from hospitalized decompensated heart failure patients to construct predictive models. This dataset is provided by Zhang et al. on the PhysioNet website [1](https://physionet.org/content/heart-failure-zigong/1.3/#files) and contains 168 features for 2008 patients. An additional dataset contains all the medications administered to these patients during their hospital stay. Originally, the data was used to predict if patients would be readmitted to the emergency department within 6 months after discharge.
 
-Here, I've used the data for the following tasks:
+Here, I've used the data to predict the duration of hospital stay using features that are expected to be available shortly after patient admission (clinical presentation, lab tests, and drug order). For this task, I've used three distinct methods:
+
 <ul>
-  <li>Predicting the duration of hospital stay using data that is expected to be available shortly after patient admission (Patient history, physical exam, lab tests, and drug order)</li>
+  <li><b>linear_regression_svm_random_forest_sklearn.ipynb:</b> In this script, I've used non-neural network machine learning methods from scikit-learn, including regularized linear regressors, support vector machine regressors, random forest regressors, and a super ensemble of all these methods using a voting regressor.</li>
+  <li><b>nn_pytorch.ipynb:</b> In this script, I've used a TabularModel neural network structure using PyTorch to perform the prediction.</li>
+  <li><b>nn_tensorflow_with_model_optimization.ipynb:</b> In this script, I've use TensorFlow to build and optimize a neural network regressor. The optimization is performed in a step-by-step experimentation process and its results can be viewed using TensorBoard.</li>  
 </ul>
 
 References:
