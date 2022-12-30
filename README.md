@@ -111,14 +111,14 @@ To access the data, you must sign up on the PhysioNet website and sign a Data Us
    drive.mount('/content/gdrive')
    ```
    ```sh
-   !unzip gdrive/MyDrive/Databases/proj2.zip
+   !unzip gdrive/MyDrive/databases/hospitalized-patients-with-heart-failure-integrating-electronic-healthcare-records-and-external-outcome-data-1.3.zip
    ```
 	 ```sh
-	 heart_data = pd.read_csv('/content/hospitalized-patients-with-heart-failure-integrating-electronic-healthcare-records-and-external-outcome-data-1.3/dat.csv')
+	 patient_data = pd.read_csv('/content/hospitalized-patients-with-heart-failure-integrating-electronic-healthcare-records-and-external-outcome-data-1.3/dat.csv', index_col = 0)
 	 
-	 md_data = pd.read_csv('/content/hospitalized-patients-with-heart-failure-integrating-electronic-healthcare-records-and-external-outcome-data-1.3/dat_md.csv')
+	 treatment_data = pd.read_csv('/content/hospitalized-patients-with-heart-failure-integrating-electronic-healthcare-records-and-external-outcome-data-1.3/dat_md.csv', index_col = 0)
 	 
-	 dict_data = pd.read_csv('/content/hospitalized-patients-with-heart-failure-integrating-electronic-healthcare-records-and-external-outcome-data-1.3/dataDictionary.csv')
+	 dict_data = pd.read_csv('/content/hospitalized-patients-with-heart-failure-integrating-electronic-healthcare-records-and-external-outcome-data-1.3/dataDictionary.csv', index_col = 0)
 	 ```
 3. Run the code. All dependencies (numpy, pandas, sklearn, seaborn) are preinstalled on Colab.
 
